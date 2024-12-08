@@ -120,20 +120,6 @@ Authorization: Bearer <firebase_jwt_token>
 | PUT    | `/posts/:id` | Update a blog post       | Yes           |                         |
 | DELETE | `/posts/:id` | Delete a blog post       | Yes           | Admin only              |
 
-## Testing
-
-### Unit Tests
-
-```bash
-pnpm test
-```
-
-### Integration Tests
-
-```bash
-pnpm test:e2e
-```
-
 ## Roles
 
 - **admin**: Full access
