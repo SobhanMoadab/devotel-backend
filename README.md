@@ -31,9 +31,9 @@ dist/                     # Compiled output
 node_modules/             # Dependencies
 prisma/                   # Prisma schema and migrations
 src/                      # Source code
-  ├── auth/               # Firebase authentication module
-  ├── posts/              # Blog posts module 
-  ├── common/             # Common utilities
+  ├── modules/               # Firebase authentication module
+      ├── posts/              # Blog posts module 
+  ├── shared             # Common utilities
 test/                     # Unit and integration tests
 uploads/                  # Local image storage
 .env                      # Environment variables
