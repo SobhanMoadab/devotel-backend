@@ -4,7 +4,6 @@ firebase-service-account.json
 /dist
 /node_modules
 /build
-/src/generated
 # Logs
 logs
 *.log
