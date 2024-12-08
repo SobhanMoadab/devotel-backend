@@ -44,8 +44,8 @@ uploads/                  # Local image storage
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository_url>
-cd <repository_folder>
+git clone <https://github.com/SobhanMoadab/devotel-backend/tree/master>
+cd <devotel-backend>
 ```
 
 ### 2. Install Dependencies
