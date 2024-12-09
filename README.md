@@ -117,7 +117,7 @@ Authorization: Bearer <firebase_jwt_token>
 | GET    | `/posts`     | Retrieve all blog posts  | Yes           | Supports pagination     |
 | GET    | `/posts/:id` | Retrieve a specific post | Yes           |                         |
 | POST   | `/posts`     | Create a new blog post   | Yes           | Requires title, content |
-| PUT    | `/posts/:id` | Update a blog post       | Yes           |                         |
+| PATCH    | `/posts/:id` | Update a blog post       | Yes           |                         |
 | DELETE | `/posts/:id` | Delete a blog post       | Yes           | Admin only              |
 
 ## Roles
